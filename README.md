@@ -102,3 +102,15 @@
       - compression: RESPUESTAS
       - body-parser: PETICIONES DE DATOS
       - method override: VERBOS HTTP
+
+  ## MONGOOSE
+
+  - Conectar modo genérico:
+    - mongodb://nombreUsuario:password@hostname:puerto/basedato
+  - Instancia Local:
+    - mongodb://localhost/mean
+  - Definir conexión directo en archivo: **config/express.js**
+    - ```
+      var uri = 'mongodb://localhost/mean';
+      var db = require('mongoose').connect(uri);
+    ``` 
