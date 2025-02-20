@@ -9,7 +9,7 @@ exports.render = function(req, res) {
 
     // Nombre plantilla (archivo sin la extensión: .ejs)
     res.render('index', {
-        title: 'Express',
-        message: 'Hola Mundo'
+        title: 'Hola Mundo',
+        message: 'Express'
     });
 };
