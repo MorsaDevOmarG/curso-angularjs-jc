@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "53.CreandoWeb": "file:",
     "body-parser": "^1.20.3",
     "compression": "^1.7.5",
     "ejs": "^3.1.10",
